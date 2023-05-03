@@ -1,0 +1,107 @@
+ @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,600;1,700&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,300;0,400;1,200;1,300;1,400&family=PT+Sans:ital@1&family=Poppins:wght@100&display=swap'); 
+body{
+    font-size: 0.8rem;
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+header{
+    font-size: 1rem;
+}.aaa{
+    background-color: blue;
+}
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+    .navbar .has-megamenu {
+        position: static !important;
+    }
+
+    .navbar .megamenu {
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin-top: 0;
+    }
+
+}
+
+/* ============ desktop view .end// ============ */
+
+/* ============ mobile view ============ */
+@media(max-width: 991px) {
+
+    .navbar.fixed-top .navbar-collapse,
+    .navbar.sticky-top .navbar-collapse {
+        overflow-y: auto;
+        max-height: 90vh;
+        margin-top: 10px;
+    }
+}
+
+/* ============ mobile view .end// ============ */
+.oppo_slide .carousel-caption {
+    position: absolute;
+    right: 15% !important;
+    bottom: 5.25rem !important;
+    left: 5% !important;
+    padding-top: 1.25rem !important;
+    padding-bottom: .25rem !important;
+    color: #fff;
+    text-align: center !important;
+  
+  
+   
+    text-align: left !important;
+   
+}
+.oppo_slide .carousel-caption h5 {
+    font-size: 3rem;
+   
+   
+}.oppo_slide{
+    padding-left: 0px !important;
+}.catagaries h5{
+    font-size: 1rem;
+    
+}.coupen {
+    font-size: 0.8rem;
+}.phones .card {
+ background-color: rgb(250, 250, 255);
+ 
+ 
+}.phones  .card:hover{
+    box-shadow: .3rem .3rem .3rem .3rem rgb(199, 191, 191);
+}
+.text-muted{
+    font-size: 1rem;
+}footer li{
+    list-style: none;
+    font-size: 0.8rem;
+    color: rgb(155, 145, 145);
+    padding-top: 0.3rem;
+    font-weight: lighter;
+    
+}footer{
+   
+    background-color: black;
+}.Privacy li{
+ list-style: none;
+ display: inline;
+
+}.bord{
+    border-bottom: 0.01rem solid rgb(160, 157, 157);
+}
+@media only screen and (min-width:576px) {
+
+    .oppo_slide .carousel-caption h5 {
+        font-size: 2rem;
+    }
+    .oppo_slide .carousel-caption h4 {
+        font-size: 1rem;
+    }.oppo_slide button{
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+}
+
+    
